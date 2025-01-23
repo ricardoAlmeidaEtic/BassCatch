@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  {% load static %}
+  <link rel="stylesheet" href="{% static 'css/main.e6c13ad2.css' %}">
+  <link rel="icon" href="https://eticalgarve.com/wp-content/uploads/2020/05/cropped-fave-192x192.png" sizes="192x192" />
+  <title>{% block title %}{% endblock %}</title>
+</head>
+<body>
+    <div class="app-container">
+      {% block 'content' %}{% endblock %}
+    </div>
+
+    <script src="{% static 'js/main.d3daf0d5.js' %}"></script>
+</body>
+</html>
